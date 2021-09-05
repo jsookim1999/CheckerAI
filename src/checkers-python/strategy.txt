@@ -1,0 +1,68 @@
+1. BEGINNING PHASE: when pieces are too far away, just move the pieces randmoly
+    without running the search. That way saves the time
+
+2. When the forward piece is in contact (or in range), run the search to find the 
+    best move.
+
+
+Need Fucntion:
+    1. is_in_danger :: defensive
+        check if the opponent can catch next time
+        if I have a move that can prevent that, do it as a priority
+    2. is_worth :: offensive
+        if sacrificing the move allows me to make a double jump, it's worth and make the move
+    3. capturing :: status-check 
+        check if the given move(s) is/are capturing 
+    4. Check King 
+    
+MCTS + UCB1 = UCT 
+
+def MCTS(state):
+    tree = Node(state)
+    while time_remains():
+        leaf = Select(tree)
+        child = Expand(leaf)
+        result = Sumulate(child)
+        Back_Propagate(result, child)
+    return the move in Actions(state) whose node has highest number of playouts 
+
+import datetime
+second = (input)
+calculate_time = datetime.timedelta(seconds=second)
+
+choice() retunrs a random item from a list, tuple, or string 
+
+
+
+Phase 1 - Selection:
+    1) Select a legal move (using UCB1)
+    2) Advance to the corresponding child move
+    3) Repeat 1 and 2 until reached the end 
+
+    Explore and Exploit
+        Explore new paths to gain information
+        Exploit paths known to be good using the existing information
+
+        * Use a Selection Function that balances exploration and exploitation
+        * use UCB1 selection function 
+
+Phase 2 - Expansion:
+    1) After selection stops, there will be at least one unvisited move in the search tree (or unexpanded moves)
+    2) Randomly choose one unexpanded move, then create the child node corresponding to the move
+    3) Add this node as a child to the last selected node in the selection phase, expanding the search tree 
+    4) The node is initialized with 0 wins out of 0 simulation
+
+    * Create just one node per simulation to be memory-efficient 
+
+Phase 3 - Simulation:
+    1) From the newly-created node in the expansion phase, moves are selected RANDOMLY and the game state is advanced
+    2) This repeats until the game is finished and a winner emerges (No new nodes are created in this phase)
+
+Phase 4 - Backprogation:
+    1) After the simulation phase, the statistics on all the visited nodes are updated
+    2) Each visited node has its simulation count s incremented
+    3) Depending on which player wins, its win count w may also be incremented
+        Ex. If blue wins, each visited red node's win count is incremented 
+        (because of the fact that each node's stat are used for its parent node's choice, not its own)
+    
+    * For a two-player game, MCTS tries to find the best moves down a path for each player respectively

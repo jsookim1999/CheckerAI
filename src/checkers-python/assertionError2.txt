@@ -1,0 +1,252 @@
+jeongsk7@circinus-9 21:36:48 ~/cs171/Checkers_Student-master/Tools 
+$ python3 AI_Runner.py 7 7 2 l ~/cs171/Checkers_Student-master/src/checkers-python/main.py ~/cs171/Checkers_Student-master/Tools/Sample_AIs/Poor_AI_368/main.py
+   0  1  2  3  4  5  6
+0  b  .  b  .  b  .  b
+1  .  b  .  b  .  b  .
+2  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .
+4  .  .  .  .  .  .  .
+5  .  w  .  w  .  w  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  b  .  b  .  b  .  b
+1  .  .  .  b  .  b  .
+2  .  .  b  .  .  .  .
+3  .  .  .  .  .  .  .
+4  .  .  .  .  .  .  .
+5  .  w  .  w  .  w  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  b  .  b  .  b  .  b
+1  .  .  .  b  .  b  .
+2  .  .  b  .  .  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  .
+5  .  .  .  w  .  w  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  b  .  b  .  b  .
+2  .  .  b  .  .  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  .
+5  .  .  .  w  .  w  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  b  .  b  .  b  .
+2  .  .  b  .  .  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  .  .  w  .  .  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  b  .  .  .  b  .
+2  .  .  b  .  b  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  .  .  w  .  .  .
+6  w  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  b  .  .  .  b  .
+2  .  .  b  .  b  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  w  .  .  .
+6  .  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  b  .
+2  b  .  b  .  b  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  w  .  .  .
+6  .  .  w  .  w  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  b  .
+2  b  .  b  .  b  .  .
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  w  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  b  .
+2  b  .  .  .  b  .  .
+3  .  .  .  b  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  w  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  b  .
+2  b  .  .  .  b  .  .
+3  .  .  .  b  .  .  .
+4  .  .  w  .  w  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  b  .  .  .
+4  .  .  w  .  w  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  b  .  b  .  b
+1  .  .  .  .  .  .  .
+2  b  .  w  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  .  .  b  .  b
+1  .  .  .  b  .  .  .
+2  b  .  w  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  .  .  b  .  b
+1  .  w  .  b  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  .  .  b  .  b
+1  .  w  .  .  .  .  .
+2  b  .  b  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  b  .  b
+1  .  .  .  .  .  .  .
+2  b  .  b  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  b  .  b
+1  .  .  .  .  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  b  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  .  .  b  .  b
+1  .  W  .  .  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  b  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  .  .  .  .  .  .  b
+1  .  W  .  b  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  b  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  .  .  b
+1  .  .  .  b  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  b  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  .  .  b
+1  .  .  .  b  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  b  .  w
+5  .  w  .  .  .  w  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  .  .  b
+1  .  .  .  b  .  w  . <---- w at (1,5) just made a double jump
+2  b  .  .  .  .  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  .  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  .  .  .
+1  .  .  .  b  .  .  .
+2  b  .  .  .  b  .  b <---- b at (2,4) ate the w that just made a double jump
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  .  .
+6  .  .  w  .  .  .  w
+----------------------
+   0  1  2  3  4  5  6
+0  W  .  .  .  .  .  .
+1  .  .  .  b  .  .  .
+2  b  .  .  .  b  .  b
+3  .  .  .  .  .  .  .
+4  .  .  w  .  .  .  w
+5  .  w  .  .  .  w  . <--- w made move (6,6)-(5,5)
+6  .  .  w  .  .  .  .
+----------------------
+exception
+Player 1 crashed!
+Traceback (most recent call last):
+  File "./Sample_AIs/Random_AI/GameLogic.py", line 28, in gameloop
+    move = self.ai_list[player-1].get_move(move)
+  File "./Sample_AIs/Random_AI/AI_Extensions/IOAI.py", line 30, in get_move
+    raise Exception(err.decode())
+Exception: Traceback (most recent call last):
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/main.py", line 116, in <module>
+    main.Run(mode=mode)
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/GameLogic.py", line 130, in Run
+    self.TournamentInterface()
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/GameLogic.py", line 76, in TournamentInterface
+    result = ai.get_move(move)
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/StudentAI.py", line 44, in get_move
+    move = self.MCTS()
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/StudentAI.py", line 75, in MCTS
+    node = self.select_node(root) # either best_child or newly expanded child
+  File "/home/jeongsk7/cs171/Checkers_Student-master/src/checkers-python/StudentAI.py", line 122, in select_node
+    assert len(unexpanded) > 0
+AssertionError
+
+player 2 wins
+jeongsk7@circinus-9 21:40:43 ~/cs171/Checkers_Student-master/Tools 
+$ 

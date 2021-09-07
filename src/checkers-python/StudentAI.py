@@ -64,7 +64,7 @@ class StudentAI():
 
         # initialize tree with root node 
         if self.board_copy in self.game_tree:
-            root = self.game_tree[board_copy]
+            root = self.game_tree[self.board_copy]
         else:
             root = Node(self.board_copy, None, self.opponent[self.color])
         root.parent = None
